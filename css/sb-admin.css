@@ -3,6 +3,9 @@ html {
   min-height: 100%;
 }
 
+* {
+  font-family: 'Bitter', serif;
+}
 body {
   overflow-x: hidden;
 }
@@ -17,6 +20,66 @@ body.sticky-footer .content-wrapper {
 
 body.fixed-nav {
   padding-top: 56px;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #afafaf;
+  border-color: #007bff;
+}
+
+#name {
+  display: inline;
+}
+
+.video-entrevista {
+    width: 90vh;
+    background-color: #d0d0d0;
+    height: 55vh;
+}
+
+.video {
+  width: 3em; 
+  height: 3em; 
+  display: inline;
+  margin-right: 1em;
+}
+
+.breadcrumb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: .75rem 1rem;
+  margin-bottom: 1rem;
+  list-style: none;
+  background-color: #56F89A;
+  border-radius: .25rem;
+}
+
+.postulante {
+    background-color: #FFE521;
+    width: 42vh;
+    padding: 1.4em;
+    line-height: 1em;
+    border-radius: 6px;
+}
+
+.bg-primary {
+  background-color: #FF009E !important;
+}
+
+.bg-warning {
+  background-color: #FF009E !important;
+}
+
+.bg-success {
+  background-color: #FF009E !important;
+}
+
+a {
+  color: #FF009E;
+  text-decoration: none;
 }
 
 .content-wrapper {
@@ -33,7 +96,7 @@ body.fixed-nav {
   height: 50px;
   text-align: center;
   color: white;
-  background: rgba(52, 58, 64, 0.5);
+  background: rgba(123, 129, 134, 0.5);
   line-height: 45px;
 }
 
@@ -226,7 +289,7 @@ body.fixed-nav {
 }
 
 #mainNav.fixed-top.navbar-dark .sidenav-toggler {
-  background-color: #212529;
+  background-color: #ffffff;
 }
 
 #mainNav.fixed-top.navbar-dark .sidenav-toggler a i {
@@ -238,7 +301,7 @@ body.fixed-nav {
 }
 
 #mainNav.fixed-top.navbar-light .sidenav-toggler a i {
-  color: rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 
 body.sidenav-toggled #mainNav.fixed-top .sidenav-toggler {
@@ -359,46 +422,46 @@ body.sidenav-toggled .navbar-sidenav-tooltip.show {
 
 @media (min-width: 992px) {
   #mainNav.navbar-dark .navbar-collapse .navbar-sidenav {
-    background: #343a40;
+    background: #ffffff;
   }
   #mainNav.navbar-dark .navbar-collapse .navbar-sidenav li.active a {
     color: white !important;
-    background-color: #495057;
+    background-color: #ffff;
   }
   #mainNav.navbar-dark .navbar-collapse .navbar-sidenav li.active a:focus, #mainNav.navbar-dark .navbar-collapse .navbar-sidenav li.active a:hover {
     color: white;
   }
   #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level,
   #mainNav.navbar-dark .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level {
-    background: #343a40;
+    background: #ffffff;
   }
 }
 
 #mainNav.navbar-light .navbar-collapse .navbar-sidenav .nav-link-collapse:after {
-  color: rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 
 #mainNav.navbar-light .navbar-collapse .navbar-sidenav > .nav-item > .nav-link {
-  color: rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 
 #mainNav.navbar-light .navbar-collapse .navbar-sidenav > .nav-item > .nav-link:hover {
-  color: rgba(0, 0, 0, 0.7);
+  color: #fff;
 }
 
 #mainNav.navbar-light .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level > li > a,
 #mainNav.navbar-light .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level > li > a {
-  color: rgba(0, 0, 0, 0.5);
+  color: #fff;
 }
 
 #mainNav.navbar-light .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level > li > a:focus, #mainNav.navbar-light .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level > li > a:hover,
 #mainNav.navbar-light .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level > li > a:focus,
 #mainNav.navbar-light .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level > li > a:hover {
-  color: rgba(0, 0, 0, 0.7);
+  color: #fff;
 }
 
 #mainNav.navbar-light .navbar-collapse .navbar-nav > .nav-item.dropdown > .nav-link:after {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 @media (min-width: 992px) {
@@ -406,11 +469,11 @@ body.sidenav-toggled .navbar-sidenav-tooltip.show {
     background: #f8f9fa;
   }
   #mainNav.navbar-light .navbar-collapse .navbar-sidenav li.active a {
-    color: #000 !important;
+    color: #ffff !important;
     background-color: #e9ecef;
   }
   #mainNav.navbar-light .navbar-collapse .navbar-sidenav li.active a:focus, #mainNav.navbar-light .navbar-collapse .navbar-sidenav li.active a:hover {
-    color: #000;
+    color: #fff;
   }
   #mainNav.navbar-light .navbar-collapse .navbar-sidenav > .nav-item .sidenav-second-level,
   #mainNav.navbar-light .navbar-collapse .navbar-sidenav > .nav-item .sidenav-third-level {
